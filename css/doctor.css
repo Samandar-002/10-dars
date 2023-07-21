@@ -1,0 +1,29 @@
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 5rem;
+    margin-top: 50px;
+}
+.box {
+    background-color: rgb(249, 249, 249);
+    box-shadow: rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+.service-box {
+    padding: 2.5rem;
+    text-align: center;
+}
+.service-box a{
+    color: #1F1534;
+}
+.box p {
+    font-size: 16px;
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+.box:hover {
+    transform: scale(1.03);
+}
